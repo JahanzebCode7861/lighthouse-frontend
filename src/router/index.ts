@@ -4,7 +4,6 @@ import Analyzer from '../views/Analyzer.vue';
 
 const routes = [
   { path: '/', component: Login },
-  // { path: '/analyzer', component: Analyzer, meta: { requiresAuth: true } },
   { path: '/analyzer', component: Analyzer },
 ];
 
